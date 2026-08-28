@@ -1,0 +1,24 @@
+# Submission entry for awesome-dsh-plugin (https://github.com/Anil-matcha/awesome-dsh-plugin)
+#
+# How to submit:
+#   1. Rename this file to  data/plugins/<owner>__<repo>.yml  inside a clone of
+#      awesome-dsh-plugin and open a PR with ONLY this one new file.
+#   2. The READMEs there are generated — never edit them by hand.
+#   3. CI checks: repo older than 1 day, 10+ commits, dsh.bundle manifest,
+#      `dsh-plugin` topic on the repo.
+#   4. One PR adds at most 3 entries.
+#
+# Rules that matter (see their contributing.md):
+#   - description.en is required; description.zh optional (maintainers add it).
+#   - The description is read as a CLAIM about the plugin and is checked
+#     against the source: state only what the plugin does, no marketing words.
+#   - Quotes: a description containing ": " (colon + space) MUST be quoted.
+#   - category: pick the closest fit; maintainers adjust near misses.
+#     This plugin performs model selection/routing → `model`.
+
+url: https://github.com/SHUJILAI/dsh-model-auto-hot-switch
+name: SHUJILAI/dsh-model-auto-hot-switch
+category: model
+description:
+  en: 'Automatic per-task model hot-switching for DeepSeek Harness: image tasks route to the vision model, all other tasks keep the default model, with zero extra tokens.'
+  zh: 'DeepSeek Harness 模型自动热切换：识图任务自动使用视觉模型，其余任务保持默认模型，零额外 token。'
