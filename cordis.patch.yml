@@ -1,0 +1,5 @@
+# dsh-model-auto-hot-switch bundle patch.
+# Declared in package.json's dsh.bundle.patch so `dsh plugin add` can install it.
+- insert:
+    - id: dsh-model-auto-hot-switch
+      name: dsh-model-auto-hot-switch
